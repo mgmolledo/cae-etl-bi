@@ -1,0 +1,26 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+
+# Virtual env
+.venv/
+env/
+venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+
+pandas
+requests
+jupyter
+notebook
+pyarrow
+openpyxl
+matplotlib
+seaborn
+scikit-learn
