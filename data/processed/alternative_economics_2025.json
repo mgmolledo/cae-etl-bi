@@ -1,0 +1,18 @@
+{
+  "admin_cost_savings_millions": 449.95914,
+  "paralization_cost_savings_millions": 108.82987776,
+  "project_delay_savings_millions": 0.0024609717,
+  "digital_transformation_savings_millions": 74.99319,
+  "total_savings_millions": 633.7846687317,
+  "implementation_cost_millions": 65,
+  "roi_percentage": 875.0533365103078,
+  "payback_period_years": 0.10255849219274259,
+  "digital_adoption_rate": 0.85,
+  "efficiency_improvements": {
+    "validation_time_hours": 6.279999999999997,
+    "delay_rate_percentage": 1.072000000000001,
+    "platforms_per_company": 1.0,
+    "fragmentation_rate": 0.0,
+    "digital_transformation_rate": 0.85
+  }
+}

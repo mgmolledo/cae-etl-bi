@@ -1,0 +1,54 @@
+{
+  "extraction_date": "2025-09-14",
+  "total_companies_affected": 131567,
+  "total_workers_affected": 1367890,
+  "total_admin_cost_millions": 2840.099238428572,
+  "total_cae_cost_millions": 624.94325,
+  "total_paralization_cost_millions": 113.364456,
+  "total_project_delay_cost_millions": 0.003001185,
+  "total_system_cost_millions": 738.310707185,
+  "cost_per_company": 4750,
+  "cost_per_worker": 539.7442098304688,
+  "impact_by_size": {
+    "micro": {
+      "companies_count": 113789,
+      "workers_count": 265678,
+      "cost_per_company": 2800,
+      "total_cost": 318609200,
+      "cost_per_worker": 1199.2306476260737
+    },
+    "small": {
+      "companies_count": 14901,
+      "workers_count": 379012,
+      "cost_per_company": 9500,
+      "total_cost": 141559500,
+      "cost_per_worker": 373.4960898335673
+    },
+    "medium": {
+      "companies_count": 2978,
+      "workers_count": 492345,
+      "cost_per_company": 28000,
+      "total_cost": 83384000,
+      "cost_per_worker": 169.36091561811332
+    },
+    "large": {
+      "companies_count": 199,
+      "workers_count": 230855,
+      "cost_per_company": 85000,
+      "total_cost": 16915000,
+      "cost_per_worker": 73.27110090749605
+    }
+  },
+  "efficiency_metrics": {
+    "avg_validation_time_hours": 78.5,
+    "delay_rate_percentage": 26.8,
+    "fragmentation_rate": 67.8,
+    "avg_platforms_per_company": 2.4,
+    "digital_transformation_rate": 23.0
+  },
+  "economic_context": {
+    "global_growth_rate": 2.3,
+    "inflation_impact": 1.15,
+    "digital_transformation": 0.23
+  }
+}
