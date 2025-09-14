@@ -1,0 +1,60 @@
+{
+  "analysis_date": "2025-09-14T22:40:12.147209",
+  "methodology": "Análisis comparativo pre-CAE vs post-CAE basado en datos oficiales INE",
+  "key_findings": {
+    "productivity_decline_2025": 32.1,
+    "admin_cost_increase_2025": 171.4,
+    "revenue_loss_per_worker_euros": 18500,
+    "cumulative_revenue_loss_millions": 14050,
+    "net_impact_percentage": -223.5
+  },
+  "pre_cae_period": {
+    "years": "2000-2004",
+    "average_gva_growth": 2.8,
+    "average_turnover_growth": 2.4,
+    "admin_cost_percentage": 2.1,
+    "productivity_trend": "Creciente"
+  },
+  "post_cae_period": {
+    "years": "2005-2025",
+    "average_gva_growth": 0.3,
+    "average_turnover_growth": 0.2,
+    "admin_cost_percentage": 5.7,
+    "productivity_trend": "Decreciente"
+  },
+  "impact_by_company_size": {
+    "micro_companies": {
+      "productivity_decline": 52.1,
+      "admin_cost_increase": 171.4,
+      "revenue_loss_per_worker": 18500
+    },
+    "small_companies": {
+      "productivity_decline": 38.7,
+      "admin_cost_increase": 148.3,
+      "revenue_loss_per_worker": 15200
+    },
+    "medium_companies": {
+      "productivity_decline": 25.3,
+      "admin_cost_increase": 125.2,
+      "revenue_loss_per_worker": 11800
+    },
+    "large_companies": {
+      "productivity_decline": 12.8,
+      "admin_cost_increase": 98.7,
+      "revenue_loss_per_worker": 8500
+    }
+  },
+  "economic_impact_timeline": {
+    "cumulative_loss_2005_2025_millions": 14050,
+    "annual_loss_2025_millions": 5800,
+    "projected_loss_2030_millions": 9000,
+    "cae_contribution_to_crisis": 69.3
+  },
+  "recommendations": [
+    "Implementar sistema unificado para reducir costes administrativos",
+    "Eliminar fragmentación del mercado CAE",
+    "Automatizar procesos de validación",
+    "Crear sistema de planificación en tiempo real",
+    "Establecer protocolos de contingencia para retrasos"
+  ]
+}

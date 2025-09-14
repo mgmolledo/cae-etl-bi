@@ -3,7 +3,7 @@
 
 ---
 
-**Fecha**: Diciembre 2024  
+**Fecha**: Septiembre 2025  
 **Autor**: Manuel García Molledo  
 **Proyecto**: CAE ETL & Business Intelligence  
 **Audiencia**: Administración Pública, Organismos Oficiales, Asociaciones Sectoriales

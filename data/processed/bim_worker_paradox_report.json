@@ -1,0 +1,68 @@
+{
+  "analysis_date": "2025-09-14T22:40:14.657595",
+  "methodology": "Análisis de paradoja tecnológica basado en estudios de implementación BIM",
+  "key_findings": {
+    "worker_bim_involvement_percentage": 5,
+    "worker_technology_access_percentage": 15,
+    "worker_training_investment_euros": 500,
+    "worker_decision_power_percentage": 0,
+    "worker_satisfaction_level": 23
+  },
+  "stakeholder_analysis": {
+    "promoter": {
+      "bim_involvement": 95,
+      "technology_access": 100,
+      "training_investment": 50000,
+      "decision_power": 90,
+      "satisfaction": 85
+    },
+    "architect": {
+      "bim_involvement": 98,
+      "technology_access": 100,
+      "training_investment": 45000,
+      "decision_power": 85,
+      "satisfaction": 88
+    },
+    "worker": {
+      "bim_involvement": 5,
+      "technology_access": 15,
+      "training_investment": 500,
+      "decision_power": 0,
+      "satisfaction": 23
+    }
+  },
+  "technology_gaps": {
+    "bim_level_3_worker_usage": 0,
+    "bim_level_2_worker_usage": 2,
+    "bim_level_1_worker_usage": 3,
+    "cad_2d_worker_usage": 15,
+    "paper_pencil_worker_usage": 80
+  },
+  "exclusion_factors": {
+    "technology_barriers_percentage": 78,
+    "training_gaps_percentage": 82,
+    "cost_barriers_percentage": 85,
+    "support_gaps_percentage": 70
+  },
+  "integration_gaps": {
+    "bim_cae_integration_level": 1,
+    "data_duplication_percentage": 80,
+    "inconsistency_rate": 25,
+    "worker_system_access": 15
+  },
+  "economic_impact": {
+    "exclusion_costs_annual_millions": 5390,
+    "cost_per_worker_euros": 9275,
+    "preventable_costs_percentage": 80,
+    "roi_integration_percentage": 300
+  },
+  "recommendations": [
+    "Incluir al trabajador como stakeholder principal en BIM",
+    "Desarrollar interfaces móviles accesibles para trabajadores",
+    "Integrar sistemas BIM-CAE-ERP en plataforma unificada",
+    "Invertir en formación digital del trabajador",
+    "Crear sistema de información en tiempo real para obra",
+    "Eliminar duplicación de datos entre sistemas",
+    "Establecer protocolos de coordinación digital-trabajador"
+  ]
+}

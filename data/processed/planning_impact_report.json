@@ -1,0 +1,50 @@
+{
+  "analysis_date": "2025-09-14T22:40:09.836281",
+  "methodology": "Algoritmo de progresión geométrica basado en experiencia real del sector",
+  "key_findings": {
+    "geometric_progression_factor": 0.15,
+    "critical_threshold_workers": 15,
+    "planning_breakdown_risk_percentage": 50,
+    "total_annual_cost_millions": 53.55,
+    "efficiency_loss_percentage": 85
+  },
+  "impact_by_company_size": {
+    "micro_companies": {
+      "workers_range": "1-9",
+      "planning_efficiency": 45,
+      "annual_cost_millions": 0.15,
+      "cae_impact_multiplier": 2.0
+    },
+    "small_companies": {
+      "workers_range": "10-49",
+      "planning_efficiency": 25,
+      "annual_cost_millions": 1.2,
+      "cae_impact_multiplier": 4.0
+    },
+    "medium_companies": {
+      "workers_range": "50-249",
+      "planning_efficiency": 15,
+      "annual_cost_millions": 8.7,
+      "cae_impact_multiplier": 8.0
+    },
+    "large_companies": {
+      "workers_range": "250+",
+      "planning_efficiency": 8,
+      "annual_cost_millions": 43.5,
+      "cae_impact_multiplier": 16.0
+    }
+  },
+  "geometric_progression_analysis": {
+    "formula": "Impacto = Base × (1 + 0.15)^Número_Trabajadores",
+    "explanation": "Cada trabajador adicional incrementa el impacto en un 15%",
+    "critical_point": "A partir de 15 trabajadores, el impacto se multiplica exponencialmente",
+    "breakdown_point": "Con 50+ trabajadores, la planificación se vuelve inmanejable"
+  },
+  "recommendations": [
+    "Implementar sistema unificado para eliminar retrasos CAE",
+    "Crear sistema de planificación en tiempo real",
+    "Automatizar procesos de asignación de trabajadores",
+    "Establecer protocolos de contingencia para retrasos",
+    "Desarrollar herramientas de gestión de recursos integradas"
+  ]
+}

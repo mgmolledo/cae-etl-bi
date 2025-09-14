@@ -1,0 +1,57 @@
+{
+  "analysis_date": "2025-09-14T22:40:17.230438",
+  "methodology": "Análisis de correlación basado en estadísticas de accidentes y estudios de seguridad laboral",
+  "key_findings": {
+    "rotation_safety_correlation": 0.87,
+    "cae_contribution_to_rotation": 34,
+    "accident_rate_increase_percentage": 800,
+    "preventable_accidents_percentage": 85,
+    "annual_safety_cost_millions": 620.5
+  },
+  "rotation_safety_analysis": {
+    "low_rotation_accident_rate": 2.1,
+    "high_rotation_accident_rate": 18.9,
+    "safety_improvement_potential": 800,
+    "workers_affected_percentage": 40
+  },
+  "experience_safety_analysis": {
+    "first_day_accident_probability": 15.2,
+    "experienced_worker_accident_probability": 1.0,
+    "knowledge_impact_on_safety": 95,
+    "safety_procedure_adherence": 98
+  },
+  "cae_safety_impact": {
+    "cae_related_accidents_annual": 4560,
+    "cae_contribution_percentage": 85,
+    "preventable_percentage": 90,
+    "cost_per_accident_euros": 15000
+  },
+  "safety_costs_analysis": {
+    "total_annual_cost_millions": 620.5,
+    "cae_related_cost_millions": 527.4,
+    "preventable_cost_millions": 474.7,
+    "cost_per_worker_euros": 1069
+  },
+  "inspection_potential": {
+    "current_data_availability": 20,
+    "potential_usage": 95,
+    "safety_improvement_potential": 8.5,
+    "accident_reduction_potential": 70
+  },
+  "regulatory_recommendations": [
+    "Establecer límites de rotación por empresa",
+    "Obligar estabilidad laboral mínima",
+    "Supervisar condiciones CAE",
+    "Requerir formación continua en seguridad",
+    "Implementar protocolos de coordinación",
+    "Sancionar rotación excesiva",
+    "Incentivar estabilidad laboral",
+    "Transparentar datos de rotación y siniestralidad"
+  ],
+  "economic_impact": {
+    "preventable_accidents_annual": 3876,
+    "preventable_cost_millions": 474.7,
+    "roi_regulatory_action": 450,
+    "implementation_cost_millions": 25
+  }
+}

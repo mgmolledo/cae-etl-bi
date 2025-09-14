@@ -1,0 +1,28 @@
+{
+  "analysis_date": "2025-09-14T22:40:07.308734",
+  "total_workers_affected": 520000,
+  "total_annual_cost_millions": 672.9,
+  "cost_per_worker": 1294,
+  "dignity_issues": {
+    "workers_waiting_outdoors": 263000,
+    "administrative_abuse_cases": 222000,
+    "labor_instability_cases": 520000
+  },
+  "psychological_impact": {
+    "stress_cases": 456000,
+    "anxiety_cases": 263000,
+    "depression_cases": 70000
+  },
+  "economic_impact": {
+    "productivity_loss_percentage": 18,
+    "healthcare_costs_millions": 78.9,
+    "family_instability_costs_millions": 45.6
+  },
+  "recommendations": [
+    "Implementar sistema digital unificado para eliminar esperas",
+    "Establecer protocolos de trato digno en obras",
+    "Crear estabilidad laboral mediante certificado único",
+    "Proporcionar información clara y transparente",
+    "Implementar supervisión de condiciones de trabajo"
+  ]
+}
