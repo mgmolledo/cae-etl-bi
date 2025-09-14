@@ -253,6 +253,32 @@ Implementar un **Certificado de Acceso Global** basado en:
 - **Eliminación de fragmentación**: **2.4 → 1.0** plataformas por empresa (100% reducción)
 - **ROI de implementación**: **875.1%** con período de retorno de **0.1 años**
 
+## ⚖️ Metodología y Protección Legal
+
+### **Fuentes de Datos Verificables**
+- **INE**: Estadísticas oficiales del sector construcción (2023)
+- **Fundación Civismo**: Índice de Burocracia 2021
+- **FLC**: Datos de TPC y formación en PRL
+- **ITSS**: Estadísticas de inspecciones
+- **BOE**: Normativa CAE (RD 171/2004)
+
+### **Metodología de Proyección 2025**
+- **Datos base**: Últimos datos oficiales disponibles (2023)
+- **Proyecciones**: Crecimiento sectorial conocido (2.4% anual)
+- **Factores externos**: Desaceleración económica mundial (2.3%)
+- **Inflación**: Impacto en costes administrativos (+15%)
+
+### **Disclaimer Legal**
+Este análisis es un **estudio académico y profesional** basado en:
+- Datos oficiales verificables de fuentes gubernamentales
+- Proyecciones metodológicas basadas en tendencias económicas conocidas
+- Estimaciones conservadoras utilizando metodologías estándar del sector
+- Análisis crítico constructivo con propuestas de mejora
+
+**No se pretende difamar ni acusar a ninguna entidad específica. El objetivo es contribuir al debate público con evidencia rigurosa.**
+
+📋 **Metodología completa**: Ver [docs/methodology/legal_protection_and_sources.md](docs/methodology/legal_protection_and_sources.md)
+
 ## 📞 Contacto y Colaboración
 
 Este proyecto está dirigido a:
@@ -263,4 +289,4 @@ Este proyecto está dirigido a:
 
 ---
 
-**Nota**: Este análisis se basa exclusivamente en datos oficiales y verificables. No se inventan datos ni se hacen afirmaciones sin fundamento empírico. El objetivo es contribuir al debate público con evidencia rigurosa y propuestas constructivas.
+**Compromiso de transparencia**: Todas las fuentes son verificables públicamente, la metodología de cálculo es completamente transparente, y los datos y proyecciones están claramente diferenciados.
