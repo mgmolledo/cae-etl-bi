@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAE Impact - Movimiento por la Reforma del Sistema CAE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 0;
+        }
+        .stat-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .stat-number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        .chart-container {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .testimonial-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .impact-badge {
+            background: #e74c3c;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .btn-primary {
+            background: #e74c3c;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+        .btn-primary:hover {
+            background: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-chart-line"></i> CAE Impact
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#impacto">Impacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonios">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#firma">Firmar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">
+                        El Sistema CAE está Destruyendo la Construcción Española
+                    </h1>
+                    <p class="lead mb-4">
+                        Datos reales demuestran que el sistema CAE genera <strong>€2.8 mil millones</strong> 
+                        en costes innecesarios y <strong>800% más accidentes</strong> por rotación excesiva.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#firma" class="btn btn-primary btn-lg">
+                            <i class="fas fa-pen"></i> Firmar Petición
+                        </a>
+                        <a href="#testimonios" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-comments"></i> Ver Testimonios
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <div class="stat-number">{{ stats.signatures }}</div>
+                                <p class="mb-0">Firmas Recogidas</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <div class="stat-number">{{ stats.testimonials }}</div>
+                                <p class="mb-0">Testimonios</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <div class="stat-number">€{{ "%.1f"|format(stats.total_cost/1000000) }}M</div>
+                                <p class="mb-0">Coste Reportado</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <div class="stat-number">{{ stats.reports }}</div>
+                                <p class="mb-0">Reportes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impacto Section -->
+    <section id="impacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">El Impacto Real del Sistema CAE</h2>
+            
+            <!-- Gráfico de Productividad -->
+            <div class="chart-container">
+                <h4 class="mb-4">Declive de Productividad desde la Implementación CAE</h4>
+                <div id="productivity-chart"></div>
+            </div>
+            
+            <!-- Gráfico de Seguridad -->
+            <div class="chart-container">
+                <h4 class="mb-4">Correlación Rotación-Siniestralidad</h4>
+                <div id="safety-chart"></div>
+            </div>
+            
+            <!-- Gráfico de Paradoja BIM -->
+            <div class="chart-container">
+                <h4 class="mb-4">Paradoja BIM: El Trabajador Excluido</h4>
+                <div id="bim-chart"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section id="testimonios" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Testimonios Reales</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="testimonial-card">
+                        <div class="d-flex justify-content-between align-items-start mb-3">
+                            <h5 class="mb-0">María González - Administrativa de Obra</h5>
+                            <span class="impact-badge">Impacto: 9/10</span>
+                        </div>
+                        <p class="text-muted mb-3">Microempresa (1-9 trabajadores) • 5 años de experiencia</p>
+                        <p class="mb-0">
+                            "Cada día veo trabajadores esperando horas en la puerta de la obra porque 
+                            el CAE no está validado. Es deshumanizante. El sistema está roto y 
+                            nadie hace nada por solucionarlo."
+                        </p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="d-flex justify-content-between align-items-start mb-3">
+                            <h5 class="mb-0">Carlos Ruiz - Empresario Constructor</h5>
+                            <span class="impact-badge">Impacto: 8/10</span>
+                        </div>
+                        <p class="text-muted mb-3">Pequeña empresa (10-49 trabajadores) • 15 años de experiencia</p>
+                        <p class="mb-0">
+                            "Gastamos €8,500 anuales solo en gestiones CAE. Con 25 trabajadores, 
+                            cada cambio de obra es una pesadilla. Perdemos productividad y dinero 
+                            por un sistema que no funciona."
+                        </p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="d-flex justify-content-between align-items-start mb-3">
+                            <h5 class="mb-0">Ana Martín - Trabajadora de Construcción</h5>
+                            <span class="impact-badge">Impacto: 10/10</span>
+                        </div>
+                        <p class="text-muted mb-3">Trabajadora • 8 años de experiencia</p>
+                        <p class="mb-0">
+                            "Cambio de obra cada mes. Nunca sé si podré trabajar mañana. 
+                            El estrés es constante. Los administrativos nos tratan mal cuando 
+                            hay problemas con el CAE. Es humillante."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="/testimonial" class="btn btn-primary">
+                    <i class="fas fa-plus"></i> Añadir Mi Testimonio
+                </a>
+                <a href="/testimonials" class="btn btn-outline-primary ms-3">
+                    <i class="fas fa-list"></i> Ver Todos los Testimonios
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Firma Section -->
+    <section id="firma" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">Únete al Movimiento</h2>
+                    <p class="lead mb-5">
+                        Firma la petición para exigir una reforma del sistema CAE que:
+                    </p>
+                    
+                    <div class="row mb-5">
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <i class="fas fa-unity fa-3x text-primary mb-3"></i>
+                                <h5>Unifique el Sistema</h5>
+                                <p>Un solo certificado para todas las obras</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <i class="fas fa-euro-sign fa-3x text-success mb-3"></i>
+                                <h5>Reduzca Costes</h5>
+                                <p>Ahorro de €2.8 mil millones anuales</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <i class="fas fa-shield-alt fa-3x text-warning mb-3"></i>
+                                <h5>Mejore la Seguridad</h5>
+                                <p>Reducción del 80% en accidentes</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="/sign_petition" class="btn btn-primary btn-lg">
+                        <i class="fas fa-pen"></i> Firmar Petición Ahora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">Contacto</h2>
+                    <p class="lead mb-4">
+                        ¿Tienes datos, testimonios o quieres colaborar con el movimiento?
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <i class="fas fa-envelope fa-2x mb-3"></i>
+                            <h5>Email</h5>
+                            <p>contacto@caeimpact.es</p>
+                        </div>
+                        <div class="col-md-6">
+                            <i class="fas fa-github fa-2x mb-3"></i>
+                            <h5>GitHub</h5>
+                            <p>github.com/mgmolledo/cae-etl-bi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 CAE Impact. Movimiento por la Reforma del Sistema CAE.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p class="mb-0">
+                        <i class="fas fa-shield-alt"></i> 
+                        Análisis basado en datos oficiales y verificables
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Cargar gráficos
+        {% if charts.productivity %}
+        Plotly.newPlot('productivity-chart', {{ charts.productivity | safe }});
+        {% endif %}
+        
+        {% if charts.safety %}
+        Plotly.newPlot('safety-chart', {{ charts.safety | safe }});
+        {% endif %}
+        
+        {% if charts.bim %}
+        Plotly.newPlot('bim-chart', {{ charts.bim | safe }});
+        {% endif %}
+        
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

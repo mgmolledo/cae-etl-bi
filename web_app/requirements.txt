@@ -1,0 +1,9 @@
+Flask==2.3.3
+plotly==5.17.0
+pandas==2.1.1
+numpy==1.24.3
+sqlite3
+pathlib
+logging
+json
+datetime
