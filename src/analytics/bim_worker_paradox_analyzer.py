@@ -340,3 +340,4 @@ class BIMWorkerParadoxAnalyzer:
 if __name__ == "__main__":
     analyzer = BIMWorkerParadoxAnalyzer()
     analyzer.run_complete_analysis()
+

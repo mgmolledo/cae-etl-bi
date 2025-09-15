@@ -160,3 +160,4 @@ Coste total sector = Coste por empresa × Número de empresas
 **Fecha de actualización**: Septiembre 2025  
 **Versión**: 1.0  
 **Estado**: Documento de metodología y protección legal
+

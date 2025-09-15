@@ -81,3 +81,4 @@ echo "Acceso: http://localhost:5000"
 echo "Presiona Ctrl+C para detener"
 
 python app.py
+

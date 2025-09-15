@@ -283,3 +283,4 @@ class ProductivityEvolutionAnalyzer:
 if __name__ == "__main__":
     analyzer = ProductivityEvolutionAnalyzer()
     analyzer.run_complete_analysis()
+

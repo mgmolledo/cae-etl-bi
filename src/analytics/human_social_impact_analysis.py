@@ -330,3 +330,4 @@ class HumanSocialImpactAnalyzer:
 if __name__ == "__main__":
     analyzer = HumanSocialImpactAnalyzer()
     analyzer.run_complete_analysis()
+
