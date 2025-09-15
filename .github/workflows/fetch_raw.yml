@@ -11,15 +11,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-      - run: pip install -r requirements.txt
-      - run: python src/etl/fetch_real_sources.py
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Create data directories
+        run: |
+          mkdir -p data/raw
+          mkdir -p data/processed
+      - name: Fetch raw data
+        run: python src/etl/fetch_real_sources.py
       - name: Commit updated data
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add data/raw/*
-          git commit -m "chore: update raw data" || echo "No cambios"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/raw/ || echo "No hay archivos nuevos en data/raw/"
+          if git diff --staged --quiet; then
+            echo "No hay cambios para commitear"
+          else
+            git commit -m "chore: update raw data from official sources"
+            git push
+          fi
