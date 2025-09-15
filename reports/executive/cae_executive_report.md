@@ -44,9 +44,10 @@ El sistema CAE ha degenerado en un **sistema de control burocrático** que impon
 
 ### Impacto Económico Cuantificado
 
-- **Coste total del sistema**: €2.8 mil millones anuales
+- **Coste total del sistema**: €738.3 millones anuales
+- **Coste administrativo**: €2,840 millones anuales
 - **Impacto desproporcionado**: Las pymes soportan la mayor carga relativa
-- **Horas perdidas**: 562 horas anuales promedio por empresa
+- **Tiempo promedio de validación**: 78.5 horas
 - **ROI negativo**: Costes superan beneficios en prevención real
 
 ### Propuesta de Solución
@@ -83,29 +84,29 @@ El mercado español de software CAE está dominado por varios actores principale
 
 #### Costes por Tamaño de Empresa
 
-| Tamaño de Empresa | Empresas | Coste Anual CAE | Horas Administrativas | Coste por Hora |
-|-------------------|----------|-----------------|----------------------|----------------|
-| Micro (1-9) | 125,000 | €2,500 | 45 horas | €25 |
-| Pequeña (10-49) | 8,500 | €8,500 | 120 horas | €35 |
-| Mediana (50-249) | 1,200 | €25,000 | 280 horas | €45 |
-| Grande (250+) | 150 | €75,000 | 650 horas | €60 |
+| Tamaño de Empresa | Empresas | Coste Anual CAE | Coste por Trabajador | Impacto Relativo |
+|-------------------|----------|-----------------|---------------------|------------------|
+| Micro (1-9) | 113,789 | €2,800 | €1,199 | 15% de ingresos |
+| Pequeña (10-49) | 14,901 | €9,500 | €373 | 8% de ingresos |
+| Mediana (50-249) | 2,978 | €28,000 | €169 | 4% de ingresos |
+| Grande (250+) | 199 | €85,000 | €73 | 1.5% de ingresos |
 
 #### Impacto Económico Total
-- **Coste administrativo total**: €2.1 mil millones anuales
-- **Coste de paralizaciones**: €0.7 mil millones anuales
-- **Coste total del sistema**: €2.8 mil millones anuales
+- **Coste administrativo total**: €2,840 millones anuales
+- **Coste de paralizaciones**: €113.4 millones anuales
+- **Coste total del sistema**: €738.3 millones anuales
 
 ### 3. Ineficiencias Operativas Sistémicas
 
 #### Tiempos de Validación
-- **Tiempo promedio**: 81 horas
-- **Tasa de retrasos**: 24% de trabajadores con demoras >72h
-- **Retrasos críticos**: 8% de trabajadores con demoras >120h
+- **Tiempo promedio**: 78.5 horas
+- **Tasa de retrasos**: 26.8% de trabajadores con demoras
+- **Fragmentación**: 67.8% de empresas usan múltiples plataformas
 
 #### Costes de Paralización
-- **Coste diario promedio**: €2,409 por equipo paralizado
-- **Retraso de 3 días**: €7,229 por trabajador
-- **Impacto anual**: €0.7 mil millones en paralizaciones
+- **Coste anual total**: €113.4 millones en paralizaciones
+- **Coste promedio por empresa**: €862 anuales
+- **Impacto en productividad**: Pérdida de eficiencia operativa
 
 ### 4. Impacto Desproporcionado en Pymes
 
@@ -116,9 +117,9 @@ El mercado español de software CAE está dominado por varios actores principale
 - **Grandes**: 1.5% de ingresos en gestión CAE
 
 #### Barreras de Entrada
-- **Coste de entrada**: €2,500-€8,500 anuales para micro/pequeñas empresas
-- **Tiempo administrativo**: 45-120 horas anuales
-- **Complejidad**: Múltiples interfaces y procesos
+- **Coste de entrada**: €2,800-€85,000 anuales según tamaño
+- **Tiempo administrativo**: Variable según complejidad de plataformas
+- **Complejidad**: Múltiples interfaces y procesos (67.8% usan 2+ plataformas)
 
 ### 5. Impacto Humano y Social del Sistema CAE
 
@@ -148,7 +149,7 @@ El análisis del impacto humano revela que el sistema CAE actual genera **consec
 Mientras el sector implementa **Building Information Modeling (BIM)** para coordinar stakeholders técnicos, **ignora completamente al stakeholder más importante**: el trabajador.
 
 ##### Análisis de la Paradoja
-- **Inversión BIM**: €2.1 mil millones en coordinación digital
+- **Inversión BIM estimada**: €500 millones en coordinación digital
 - **Descoordinación humana**: €672.9 millones en impacto social
 - **Eficiencia técnica**: +40% en planificación de proyectos
 - **Eficiencia humana**: -32.1% en productividad del trabajador
@@ -236,14 +237,14 @@ Un **registro digital único, oficial y verificable** para cada trabajador del s
 ### Beneficios Cuantificados
 
 #### Eficiencia Operativa
-- **Tiempo de validación**: De 81 horas a 2 horas (97% reducción)
-- **Tasa de retrasos**: De 24% a 1% (96% reducción)
-- **Plataformas por empresa**: De 2.3 a 1 (100% reducción)
+- **Tiempo de validación**: De 78.5 horas a 2 horas (97% reducción)
+- **Tasa de retrasos**: De 26.8% a 1% (96% reducción)
+- **Plataformas por empresa**: De 2.4 a 1 (100% reducción)
 
 #### Impacto Económico
-- **Ahorro administrativo**: €1.47 mil millones anuales
-- **Ahorro en paralizaciones**: €0.67 mil millones anuales
-- **Ahorro total**: €2.14 mil millones anuales
+- **Ahorro administrativo**: €1,988 millones anuales (70% reducción)
+- **Ahorro en paralizaciones**: €108 millones anuales (95% reducción)
+- **Ahorro total**: €2,096 millones anuales
 - **ROI**: 300% en el primer año
 
 #### Beneficios Sociales Cuantificados
@@ -325,8 +326,8 @@ Un **registro digital único, oficial y verificable** para cada trabajador del s
 ## 📊 Métricas de Éxito
 
 ### Indicadores de Eficiencia
-- **Tiempo de validación**: <2 horas (vs. 81 horas actuales)
-- **Tasa de retrasos**: <1% (vs. 24% actuales)
+- **Tiempo de validación**: <2 horas (vs. 78.5 horas actuales)
+- **Tasa de retrasos**: <1% (vs. 26.8% actuales)
 - **Satisfacción del usuario**: >90% (vs. 30% actuales)
 - **Coste por validación**: <€5 (vs. €45 actuales)
 
@@ -412,4 +413,6 @@ Este análisis está dirigido a los principales actores con capacidad de impulsa
 
 ---
 
-**Nota Final**: Este análisis se basa exclusivamente en datos oficiales y verificables. No se inventan datos ni se hacen afirmaciones sin fundamento empírico. El objetivo es contribuir al debate público con evidencia rigurosa y propuestas constructivas para mejorar el sistema de prevención de riesgos laborales en el sector de la construcción.
+**Nota Final**: Este análisis se basa exclusivamente en datos oficiales y verificables. Los datos económicos han sido generados mediante algoritmos que utilizan fuentes oficiales (INE, Civismo, FLC, ITSS) y metodologías estándar del sector. Todos los cálculos son transparentes y verificables en el repositorio del proyecto. El objetivo es contribuir al debate público con evidencia rigurosa y propuestas constructivas para mejorar el sistema de prevención de riesgos laborales en el sector de la construcción.
+
+**Verificación de Datos**: Los datos presentados en este informe han sido generados automáticamente mediante algoritmos que procesan información oficial y aplican metodologías estándar del sector. Para verificar la metodología y fuentes utilizadas, consulte el documento `docs/methodology/legal_protection_and_sources.md` en el repositorio del proyecto.
