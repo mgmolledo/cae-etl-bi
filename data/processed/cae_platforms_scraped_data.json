@@ -1,0 +1,268 @@
+{
+  "scraping_date": "2025-09-15T09:08:04.654561",
+  "platforms_data": {
+    "ctaima": {
+      "platform_name": "ctaima",
+      "url": "https://www.ctaima.com",
+      "scraping_date": "2025-09-15T09:08:04.654561",
+      "status_code": 200,
+      "title": "CTAIMA - Software Coordinación Empresarial y Prevención riesgos",
+      "description": "Plataforma CAE líder en el mercado",
+      "market_share": "18.5%",
+      "public_info": {
+        "keyword_mentions": {
+          "coordinación": 5,
+          "actividades": 2,
+          "empresariales": 2,
+          "cae": 11,
+          "prevención": 2,
+          "riesgos": 6,
+          "laborales": 2,
+          "prl": 2,
+          "trabajadores": 3,
+          "empresas": 2
+        },
+        "price_indicators": {},
+        "functionality_mentions": {
+          "gestión": 13,
+          "documentos": 3,
+          "trabajadores": 3,
+          "empresas": 2,
+          "validación": 2,
+          "formación": 6
+        },
+        "relevant_links": []
+      }
+    },
+    "nalanda": {
+      "platform_name": "nalanda",
+      "url": "https://www.nalanda.es",
+      "scraping_date": "2025-09-15T09:08:04.654561",
+      "status_code": 200,
+      "title": "Nalanda Digital S.L",
+      "description": "Plataforma CAE especializada",
+      "market_share": "15.7%",
+      "public_info": {
+        "keyword_mentions": {},
+        "price_indicators": {},
+        "functionality_mentions": {},
+        "relevant_links": []
+      }
+    },
+    "ecoordina": {
+      "platform_name": "ecoordina",
+      "url": "https://www.ecoordina.com",
+      "error": "525 Server Error: <none> for url: https://www.ecoordina.com/",
+      "scraping_date": "2025-09-15T09:08:04.654561"
+    },
+    "dokify": {
+      "platform_name": "dokify",
+      "url": "https://www.dokify.net",
+      "scraping_date": "2025-09-15T09:08:04.654561",
+      "status_code": 200,
+      "title": "Dokify | Automatización de Procesos Empresariales",
+      "description": "Plataforma CAE con enfoque documental",
+      "market_share": "11.5%",
+      "public_info": {
+        "keyword_mentions": {
+          "coordinación": 1,
+          "actividades": 1,
+          "empresariales": 2,
+          "cae": 8,
+          "prevención": 2,
+          "riesgos": 2,
+          "laborales": 2,
+          "prl": 2,
+          "trabajadores": 4,
+          "empresas": 9,
+          "construcción": 1
+        },
+        "price_indicators": {},
+        "functionality_mentions": {
+          "gestión": 4,
+          "documentos": 4,
+          "trabajadores": 4,
+          "empresas": 9,
+          "validación": 1,
+          "formación": 5
+        },
+        "relevant_links": [
+          {
+            "text": "Tarifas",
+            "href": "https://www.dokify.net/cae-old/tarifas-antigua"
+          },
+          {
+            "text": "Tarifas",
+            "href": "https://www.dokify.net/homologacion-compras-old/tarifas-antigua"
+          },
+          {
+            "text": "Tarifas",
+            "href": "https://www.dokify.net/homologacion-proveedores/tarifas"
+          },
+          {
+            "text": "Tarifas",
+            "href": "https://www.dokify.net"
+          },
+          {
+            "text": "Tarifas",
+            "href": "https://www.dokify.net/jornada/jornada-tarifas"
+          },
+          {
+            "text": "Tarifas",
+            "href": "https://www.dokify.net"
+          }
+        ]
+      }
+    },
+    "6conecta": {
+      "platform_name": "6conecta",
+      "url": "https://www.6conecta.com",
+      "scraping_date": "2025-09-15T09:08:04.654561",
+      "status_code": 200,
+      "title": "6conecta. Software PRL y Aplicación CAE",
+      "description": "Plataforma CAE de conectividad",
+      "market_share": "10.4%",
+      "public_info": {
+        "keyword_mentions": {
+          "cae": 7,
+          "prevención": 6,
+          "riesgos": 6,
+          "laborales": 3,
+          "prl": 3
+        },
+        "price_indicators": {},
+        "functionality_mentions": {
+          "gestión": 2,
+          "documentos": 1,
+          "formación": 3
+        },
+        "relevant_links": [
+          {
+            "text": "Implantación",
+            "href": "https://www.6conecta.com/es/implantacion-6conecta"
+          }
+        ]
+      }
+    },
+    "metacontratas": {
+      "platform_name": "metacontratas",
+      "url": "https://www.metacontratas.com",
+      "scraping_date": "2025-09-15T09:08:04.654561",
+      "status_code": 200,
+      "title": "Plataforma CAE | Metacontratas",
+      "description": "Plataforma CAE de contratación",
+      "market_share": "9.1%",
+      "public_info": {
+        "keyword_mentions": {
+          "coordinación": 6,
+          "actividades": 6,
+          "empresariales": 6,
+          "cae": 14,
+          "prevención": 2,
+          "prl": 2,
+          "trabajadores": 4,
+          "empresas": 1
+        },
+        "price_indicators": {
+          "coste": [
+            "59"
+          ],
+          "plan": [
+            "59"
+          ]
+        },
+        "functionality_mentions": {
+          "gestión": 2,
+          "documentos": 4,
+          "trabajadores": 4,
+          "empresas": 1,
+          "validación": 3,
+          "formación": 7
+        },
+        "relevant_links": []
+      }
+    }
+  },
+  "analysis": {
+    "total_platforms": 6,
+    "successful_scrapes": 5,
+    "failed_scrapes": 1,
+    "common_keywords": {
+      "coordinación": 12,
+      "actividades": 9,
+      "empresariales": 10,
+      "cae": 40,
+      "prevención": 12,
+      "riesgos": 14,
+      "laborales": 7,
+      "prl": 9,
+      "trabajadores": 11,
+      "empresas": 12,
+      "construcción": 1
+    },
+    "price_indicators_found": 1,
+    "functionality_analysis": {
+      "gestión": 21,
+      "documentos": 12,
+      "trabajadores": 11,
+      "empresas": 12,
+      "validación": 6,
+      "formación": 21
+    },
+    "market_insights": {
+      "success_rate": 83.33333333333334,
+      "most_mentioned_keywords": [
+        [
+          "cae",
+          40
+        ],
+        [
+          "riesgos",
+          14
+        ],
+        [
+          "coordinación",
+          12
+        ],
+        [
+          "prevención",
+          12
+        ],
+        [
+          "empresas",
+          12
+        ]
+      ],
+      "most_mentioned_functionalities": [
+        [
+          "gestión",
+          21
+        ],
+        [
+          "formación",
+          21
+        ],
+        [
+          "documentos",
+          12
+        ],
+        [
+          "empresas",
+          12
+        ],
+        [
+          "trabajadores",
+          11
+        ]
+      ],
+      "price_transparency": 20.0
+    }
+  },
+  "methodology": {
+    "ethical_scraping": true,
+    "respect_robots_txt": true,
+    "rate_limiting": true,
+    "public_data_only": true,
+    "no_personal_data": true
+  }
+}

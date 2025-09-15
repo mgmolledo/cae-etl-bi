@@ -152,3 +152,5 @@ THRESHOLDS["min_relevance_score"] = 6
 
 **Sistema diseñado para mantener el foco en CAE mientras exploramos sinuosamente otros temas del sector construcción.**
 
+
+

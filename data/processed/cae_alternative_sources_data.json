@@ -1,0 +1,487 @@
+{
+  "scraping_date": "2025-09-15T09:17:30.559043",
+  "search_type": "alternative_sources",
+  "sources_data": {
+    "boe": {
+      "source_name": "boe",
+      "base_url": "https://www.boe.es",
+      "search_endpoint": "/buscar/",
+      "scraping_date": "2025-09-15T09:17:30.559043",
+      "search_results": {
+        "cae_related": {
+          "coordinación actividades empresariales": {
+            "url": "https://www.boe.es/buscar/?q=coordinaci%C3%B3n+actividades+empresariales&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "CAE": {
+            "url": "https://www.boe.es/buscar/?q=CAE&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "coordinación empresarial": {
+            "url": "https://www.boe.es/buscar/?q=coordinaci%C3%B3n+empresarial&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "prevención riesgos laborales construcción": {
+            "url": "https://www.boe.es/buscar/?q=prevenci%C3%B3n+riesgos+laborales+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "coordinación seguridad construcción": {
+            "url": "https://www.boe.es/buscar/?q=coordinaci%C3%B3n+seguridad+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        },
+        "incidents_related": {
+          "incidencias construcción": {
+            "url": "https://www.boe.es/buscar/?q=incidencias+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "accidentes construcción": {
+            "url": "https://www.boe.es/buscar/?q=accidentes+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "siniestralidad construcción": {
+            "url": "https://www.boe.es/buscar/?q=siniestralidad+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "incidencias laborales construcción": {
+            "url": "https://www.boe.es/buscar/?q=incidencias+laborales+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "accidentes laborales construcción": {
+            "url": "https://www.boe.es/buscar/?q=accidentes+laborales+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        },
+        "rotation_related": {
+          "rotación personal construcción": {
+            "url": "https://www.boe.es/buscar/?q=rotaci%C3%B3n+personal+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "movilidad trabajadores construcción": {
+            "url": "https://www.boe.es/buscar/?q=movilidad+trabajadores+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "trabajadores temporales construcción": {
+            "url": "https://www.boe.es/buscar/?q=trabajadores+temporales+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "subcontratación construcción": {
+            "url": "https://www.boe.es/buscar/?q=subcontrataci%C3%B3n+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "rotación empleados construcción": {
+            "url": "https://www.boe.es/buscar/?q=rotaci%C3%B3n+empleados+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        },
+        "productivity_related": {
+          "productividad construcción": {
+            "url": "https://www.boe.es/buscar/?q=productividad+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "eficiencia construcción": {
+            "url": "https://www.boe.es/buscar/?q=eficiencia+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "rendimiento construcción": {
+            "url": "https://www.boe.es/buscar/?q=rendimiento+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "productividad sector construcción": {
+            "url": "https://www.boe.es/buscar/?q=productividad+sector+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "eficiencia sector construcción": {
+            "url": "https://www.boe.es/buscar/?q=eficiencia+sector+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        }
+      },
+      "found_data": {}
+    },
+    "ine": {
+      "source_name": "ine",
+      "base_url": "https://www.ine.es",
+      "search_endpoint": "/buscar/",
+      "scraping_date": "2025-09-15T09:17:30.559043",
+      "search_results": {
+        "cae_related": {
+          "coordinación actividades empresariales": {
+            "url": "https://www.ine.es/buscar/?q=coordinaci%C3%B3n+actividades+empresariales&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "CAE": {
+            "url": "https://www.ine.es/buscar/?q=CAE&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "coordinación empresarial": {
+            "url": "https://www.ine.es/buscar/?q=coordinaci%C3%B3n+empresarial&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "prevención riesgos laborales construcción": {
+            "url": "https://www.ine.es/buscar/?q=prevenci%C3%B3n+riesgos+laborales+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "coordinación seguridad construcción": {
+            "url": "https://www.ine.es/buscar/?q=coordinaci%C3%B3n+seguridad+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        },
+        "incidents_related": {
+          "incidencias construcción": {
+            "url": "https://www.ine.es/buscar/?q=incidencias+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "accidentes construcción": {
+            "url": "https://www.ine.es/buscar/?q=accidentes+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "siniestralidad construcción": {
+            "url": "https://www.ine.es/buscar/?q=siniestralidad+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "incidencias laborales construcción": {
+            "url": "https://www.ine.es/buscar/?q=incidencias+laborales+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "accidentes laborales construcción": {
+            "url": "https://www.ine.es/buscar/?q=accidentes+laborales+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        },
+        "rotation_related": {
+          "rotación personal construcción": {
+            "url": "https://www.ine.es/buscar/?q=rotaci%C3%B3n+personal+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "movilidad trabajadores construcción": {
+            "url": "https://www.ine.es/buscar/?q=movilidad+trabajadores+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "trabajadores temporales construcción": {
+            "url": "https://www.ine.es/buscar/?q=trabajadores+temporales+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "subcontratación construcción": {
+            "url": "https://www.ine.es/buscar/?q=subcontrataci%C3%B3n+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "rotación empleados construcción": {
+            "url": "https://www.ine.es/buscar/?q=rotaci%C3%B3n+empleados+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        },
+        "productivity_related": {
+          "productividad construcción": {
+            "url": "https://www.ine.es/buscar/?q=productividad+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "eficiencia construcción": {
+            "url": "https://www.ine.es/buscar/?q=eficiencia+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "rendimiento construcción": {
+            "url": "https://www.ine.es/buscar/?q=rendimiento+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "productividad sector construcción": {
+            "url": "https://www.ine.es/buscar/?q=productividad+sector+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "eficiencia sector construcción": {
+            "url": "https://www.ine.es/buscar/?q=eficiencia+sector+construcci%C3%B3n&tipo=all&buscar=Buscar",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        }
+      },
+      "found_data": {}
+    },
+    "insst": {
+      "source_name": "insst",
+      "base_url": "https://www.insst.es",
+      "search_endpoint": "/buscar",
+      "scraping_date": "2025-09-15T09:17:30.559043",
+      "search_results": {
+        "cae_related": {},
+        "incidents_related": {},
+        "rotation_related": {},
+        "productivity_related": {}
+      },
+      "found_data": {}
+    },
+    "ministerio_trabajo": {
+      "source_name": "ministerio_trabajo",
+      "base_url": "https://www.mites.gob.es",
+      "search_endpoint": "/buscar/",
+      "scraping_date": "2025-09-15T09:17:30.559043",
+      "search_results": {
+        "cae_related": {
+          "coordinación actividades empresariales": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "CAE": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "coordinación empresarial": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "prevención riesgos laborales construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "coordinación seguridad construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        },
+        "incidents_related": {
+          "incidencias construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "accidentes construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "siniestralidad construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "incidencias laborales construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "accidentes laborales construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        },
+        "rotation_related": {
+          "rotación personal construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "movilidad trabajadores construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "trabajadores temporales construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "subcontratación construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "rotación empleados construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        },
+        "productivity_related": {
+          "productividad construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "eficiencia construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "rendimiento construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "productividad sector construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          },
+          "eficiencia sector construcción": {
+            "url": "https://www.mites.gob.es/error.htm",
+            "status_code": 200,
+            "results_count": 0,
+            "results": []
+          }
+        }
+      },
+      "found_data": {}
+    },
+    "ccoo": {
+      "source_name": "ccoo",
+      "base_url": "https://www.ccoo.es",
+      "search_endpoint": "/buscar/",
+      "scraping_date": "2025-09-15T09:17:30.559043",
+      "search_results": {
+        "cae_related": {},
+        "incidents_related": {},
+        "rotation_related": {},
+        "productivity_related": {}
+      },
+      "found_data": {}
+    },
+    "ugt": {
+      "source_name": "ugt",
+      "base_url": "https://www.ugt.es",
+      "search_endpoint": "/buscar/",
+      "scraping_date": "2025-09-15T09:17:30.559043",
+      "search_results": {
+        "cae_related": {},
+        "incidents_related": {},
+        "rotation_related": {},
+        "productivity_related": {}
+      },
+      "found_data": {}
+    }
+  },
+  "alternative_analysis": {
+    "total_sources": 6,
+    "successful_searches": 6,
+    "total_results": 0,
+    "critical_data_found": {},
+    "data_categories": {
+      "cae_related": 15,
+      "incidents_related": 15,
+      "rotation_related": 15,
+      "productivity_related": 15
+    },
+    "source_effectiveness": {
+      "boe": 0,
+      "ine": 0,
+      "insst": 0,
+      "ministerio_trabajo": 0,
+      "ccoo": 0,
+      "ugt": 0
+    },
+    "aggregate_metrics": {
+      "sources_with_data": 0,
+      "total_critical_data_points": 0,
+      "most_effective_source": "boe"
+    }
+  },
+  "methodology": {
+    "alternative_sources": true,
+    "parallel_search": true,
+    "public_data_only": true,
+    "official_sources": true
+  }
+}

@@ -162,3 +162,5 @@ Este documento explica cómo se generaron los datos específicos utilizados en e
 **Fecha**: Septiembre 2025  
 **Versión**: 1.0  
 **Estado**: Metodología verificada y transparente
+
+

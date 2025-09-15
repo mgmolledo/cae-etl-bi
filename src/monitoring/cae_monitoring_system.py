@@ -496,3 +496,5 @@ if __name__ == "__main__":
         for i, (title, score, category) in enumerate(summary['top_news'], 1):
             print(f"   {i}. [{category}] {title} (Score: {score})")
 
+
+

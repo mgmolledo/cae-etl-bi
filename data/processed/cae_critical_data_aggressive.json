@@ -1,0 +1,501 @@
+{
+  "scraping_date": "2025-09-15T09:14:54.716499",
+  "scraping_type": "aggressive_parallel",
+  "platforms_data": {
+    "6conecta": {
+      "platform_name": "6conecta",
+      "base_url": "https://www.6conecta.com",
+      "scraping_date": "2025-09-15T09:14:54.716499",
+      "endpoints_data": {
+        "incidents_endpoint": {
+          "url": "https://www.6conecta.com/api/incidents",
+          "status_code": 500,
+          "note": "Error 500"
+        },
+        "workers_endpoint": {
+          "url": "https://www.6conecta.com/api/workers",
+          "status_code": 500,
+          "note": "Error 500"
+        },
+        "assignments_endpoint": {
+          "url": "https://www.6conecta.com/api/assignments",
+          "status_code": 500,
+          "note": "Error 500"
+        },
+        "stats_endpoint": {
+          "url": "https://www.6conecta.com/api/stats",
+          "status_code": 500,
+          "note": "Error 500"
+        }
+      },
+      "critical_data": {},
+      "deep_analysis": {
+        "critical_data": {
+          "incidents": [],
+          "workers": [],
+          "assignments": [],
+          "rotations": []
+        },
+        "stats_links": [],
+        "forms_data": [],
+        "scripts_data": [
+          "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n            })(window,document,'script','dataLayer','GTM-WW3953KB');",
+          "\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'AW-1020515896');\n        ",
+          "\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-VTZE1LEJEV');\n        "
+        ],
+        "page_size": 26025,
+        "text_length": 3878
+      },
+      "selenium_data": {
+        "page_title": "6conecta. Software PRL y Aplicación CAE",
+        "page_source_length": 26328,
+        "elements_found": {},
+        "dynamic_content": {},
+        "data_links": []
+      }
+    },
+    "dokify": {
+      "platform_name": "dokify",
+      "base_url": "https://www.dokify.net",
+      "scraping_date": "2025-09-15T09:14:54.716499",
+      "endpoints_data": {
+        "incidents_endpoint": {
+          "url": "https://www.dokify.net/api/v1/incidents",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        },
+        "workers_endpoint": {
+          "url": "https://www.dokify.net/api/v1/workers",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        },
+        "assignments_endpoint": {
+          "url": "https://www.dokify.net/api/v1/assignments",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        },
+        "stats_endpoint": {
+          "url": "https://www.dokify.net/api/v1/stats",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        }
+      },
+      "critical_data": {},
+      "deep_analysis": {
+        "critical_data": {
+          "incidents": [],
+          "workers": [],
+          "assignments": [],
+          "rotations": []
+        },
+        "stats_links": [],
+        "forms_data": [],
+        "scripts_data": [],
+        "page_size": 28438,
+        "text_length": 21282
+      },
+      "selenium_data": {
+        "page_title": "Dokify | Automatización de Procesos Empresariales",
+        "page_source_length": 112850,
+        "elements_found": {
+          "": {
+            "tag": "p",
+            "class": "body1 grey",
+            "id": ""
+          }
+        },
+        "dynamic_content": {},
+        "data_links": []
+      }
+    },
+    "ctaima": {
+      "platform_name": "ctaima",
+      "base_url": "https://www.ctaima.com",
+      "scraping_date": "2025-09-15T09:14:54.716499",
+      "endpoints_data": {
+        "incidents_endpoint": {
+          "url": "https://www.ctaima.com/api/incidents",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        },
+        "workers_endpoint": {
+          "url": "https://www.ctaima.com/api/workers",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        },
+        "assignments_endpoint": {
+          "url": "https://www.ctaima.com/api/assignments",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        },
+        "stats_endpoint": {
+          "url": "https://www.ctaima.com/api/stats",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        }
+      },
+      "critical_data": {},
+      "deep_analysis": {
+        "critical_data": {
+          "incidents": [],
+          "workers": [],
+          "assignments": [],
+          "rotations": []
+        },
+        "stats_links": [],
+        "forms_data": [
+          {
+            "action": "#",
+            "method": "post",
+            "inputs": [
+              {
+                "name": "",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "u",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "f",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "s",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "c",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "m",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "act",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "v",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "or",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "field[38][]",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "field[33]",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "field[30]",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "firstname",
+                "type": "text",
+                "placeholder": "Nombre"
+              },
+              {
+                "name": "lastname",
+                "type": "text",
+                "placeholder": "Apellidos"
+              },
+              {
+                "name": "phone",
+                "type": "text",
+                "placeholder": "Teléfono"
+              },
+              {
+                "name": "field[25]",
+                "type": "text",
+                "placeholder": "Empresa"
+              },
+              {
+                "name": "email",
+                "type": "text",
+                "placeholder": "Email"
+              },
+              {
+                "name": "field[28]",
+                "type": "text",
+                "placeholder": "field[28]"
+              },
+              {
+                "name": "field[27]",
+                "type": "text",
+                "placeholder": "field[27]"
+              },
+              {
+                "name": "field[38][]",
+                "type": "checkbox",
+                "placeholder": "field[38][]"
+              },
+              {
+                "name": "",
+                "type": "submit",
+                "placeholder": ""
+              },
+              {
+                "name": "field[88]",
+                "type": "text",
+                "placeholder": "88"
+              },
+              {
+                "name": "field[89]",
+                "type": "text",
+                "placeholder": "89"
+              },
+              {
+                "name": "field[90]",
+                "type": "text",
+                "placeholder": "90"
+              },
+              {
+                "name": "field[91]",
+                "type": "text",
+                "placeholder": "91"
+              },
+              {
+                "name": "field[92]",
+                "type": "text",
+                "placeholder": "92"
+              },
+              {
+                "name": "field[93]",
+                "type": "text",
+                "placeholder": "93"
+              },
+              {
+                "name": "field[94]",
+                "type": "text",
+                "placeholder": "94"
+              },
+              {
+                "name": "field[95]",
+                "type": "text",
+                "placeholder": "95"
+              },
+              {
+                "name": "field[96]",
+                "type": "text",
+                "placeholder": "96"
+              },
+              {
+                "name": "field[97]",
+                "type": "text",
+                "placeholder": "97"
+              },
+              {
+                "name": "field[98]",
+                "type": "text",
+                "placeholder": "98"
+              },
+              {
+                "name": "tve_mapping",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "__tcb_lg_msg",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "_error_message_option",
+                "type": "hidden",
+                "placeholder": ""
+              }
+            ]
+          }
+        ],
+        "scripts_data": [],
+        "page_size": 674171,
+        "text_length": 9493
+      },
+      "selenium_data": {
+        "page_title": "CTAIMA - Software Coordinación Empresarial y Prevención riesgos",
+        "page_source_length": 738379,
+        "elements_found": {
+          "": {
+            "tag": "h6",
+            "class": "",
+            "id": ""
+          }
+        },
+        "dynamic_content": {},
+        "data_links": []
+      }
+    },
+    "metacontratas": {
+      "platform_name": "metacontratas",
+      "base_url": "https://www.metacontratas.com",
+      "scraping_date": "2025-09-15T09:14:54.716499",
+      "endpoints_data": {
+        "incidents_endpoint": {
+          "url": "https://www.metacontratas.com/api/incidents",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        },
+        "workers_endpoint": {
+          "url": "https://www.metacontratas.com/api/workers",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        },
+        "assignments_endpoint": {
+          "url": "https://www.metacontratas.com/api/assignments",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        },
+        "stats_endpoint": {
+          "url": "https://www.metacontratas.com/api/stats",
+          "status_code": 404,
+          "note": "Endpoint no encontrado"
+        }
+      },
+      "critical_data": {},
+      "deep_analysis": {
+        "critical_data": {
+          "incidents": [],
+          "workers": [],
+          "assignments": [],
+          "rotations": []
+        },
+        "stats_links": [],
+        "forms_data": [
+          {
+            "action": "",
+            "method": "post",
+            "inputs": [
+              {
+                "name": "post_id",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "form_id",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "referer_title",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "queried_id",
+                "type": "hidden",
+                "placeholder": ""
+              },
+              {
+                "name": "form_fields[name]",
+                "type": "text",
+                "placeholder": "Nombre"
+              },
+              {
+                "name": "form_fields[email]",
+                "type": "email",
+                "placeholder": "Email"
+              },
+              {
+                "name": "form_fields[field_fba40fe]",
+                "type": "tel",
+                "placeholder": "Teléfono"
+              },
+              {
+                "name": "form_fields[message]",
+                "type": "text",
+                "placeholder": "Cuéntanos..."
+              },
+              {
+                "name": "form_fields[field_65288be]",
+                "type": "checkbox",
+                "placeholder": ""
+              }
+            ]
+          }
+        ],
+        "scripts_data": [
+          "\nwindow._wpemojiSettings = {\"baseUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/72x72\\/\",\"ext\":\".png\",\"svgUrl\":\"https:\\/\\/s.w.org\\/images\\/core\\/emoji\\/15.0.3\\/svg\\/\",\"svgExt\":\".svg\",\"source\":{\"concatemoji\":\"https:\\/\\/www.metacontratas.com\\/wp-includes\\/js\\/wp-emoji-release.min.js?ver=b3bc321b8b6bba637ff1ec8dad9d79b9\"}};\n/*! This file is auto-generated */\n!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!",
+          "\n \r\n\r\n\r\n//-----------------------------------------------------------------------------------------------------------------------------------------------\r\n//-----------------------------------------------------------------------------------------------------------------------------------------------\r\n// Login Form\r\n//-----------------------------------------------------------------------------------------------------------------------------------------------\r\n//-----------------------------------------------------------------------------------------------------------------------------------------------\r\n\r\njQuery(function() {\r\n    \r\n    var button = jQuery('#loginButton');\r\n    var box = jQuery('#loginBox');\r\n    var form = jQuery('#loginForm');\r\n    button.removeAttr('href');\r\n    button.click(function(){\r\n       jQuery(\"#mensajeLogin\").html(\"\");\r\n       jQuery(\"#usuario\").val(\"\");\r\n       jQuery(\"#password\").val(\"\");\r\n\r\n    });\r\n   button.mouseup(function(login) {\r\n        if (box.is(",
+          "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-MP48P4DR');",
+          "\nwindow.ASL = typeof window.ASL !== 'undefined' ? window.ASL : {}; window.ASL.wp_rocket_exception = \"DOMContentLoaded\"; window.ASL.ajaxurl = \"https:\\/\\/www.metacontratas.com\\/wp-admin\\/admin-ajax.php\"; window.ASL.backend_ajaxurl = \"https:\\/\\/www.metacontratas.com\\/wp-admin\\/admin-ajax.php\"; window.ASL.js_scope = \"jQuery\"; window.ASL.asl_url = \"https:\\/\\/www.metacontratas.com\\/wp-content\\/plugins\\/ajax-search-lite\\/\"; window.ASL.detect_ajax = 1; window.ASL.media_query = 4762; window.ASL.version = 4762; window.ASL.pageHTML = \"\"; window.ASL.additional_scripts = [{\"handle\":\"wd-asl-ajaxsearchlite\",\"src\":\"https:\\/\\/www.metacontratas.com\\/wp-content\\/plugins\\/ajax-search-lite\\/js\\/min\\/plugin\\/optimized\\/asl-prereq.js\",\"prereq\":[]},{\"handle\":\"wd-asl-ajaxsearchlite-core\",\"src\":\"https:\\/\\/www.metacontratas.com\\/wp-content\\/plugins\\/ajax-search-lite\\/js\\/min\\/plugin\\/optimized\\/asl-core.js\",\"prereq\":[]},{\"handle\":\"wd-asl-ajaxsearchlite-vertical\",\"src\":\"https:\\/\\/www.metacontratas.com\\/wp-content",
+          "\nwp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } );\n"
+        ],
+        "page_size": 266396,
+        "text_length": 10122
+      },
+      "selenium_data": {
+        "page_title": "Plataforma CAE | Metacontratas",
+        "page_source_length": 468395,
+        "elements_found": {
+          "Confirma diariamente, y de forma automática, que todos los trabajadores que trabajan en tus centros están dados de alta en la Seguridad Social.": {
+            "tag": "span",
+            "class": "",
+            "id": ""
+          },
+          "Conoce los permisos y capacitaciones de los trabajadores para realizar ciertas tareas a pie de campo. Visual, inmediata e intuitiva.": {
+            "tag": "span",
+            "class": "",
+            "id": ""
+          },
+          "": {
+            "tag": "span",
+            "class": "",
+            "id": ""
+          },
+          "Procesamos ciertos documentos para automatizar su validación, evitando posibles fraudes y ocultando información de trabajadores como la que aparece en RNT/TC2 o ITA. ": {
+            "tag": "span",
+            "class": "",
+            "id": ""
+          }
+        },
+        "dynamic_content": {},
+        "data_links": []
+      }
+    }
+  },
+  "critical_analysis": {
+    "total_platforms": 4,
+    "successful_scrapes": 4,
+    "critical_data_found": {},
+    "endpoints_accessible": {
+      "6conecta": 0,
+      "dokify": 0,
+      "ctaima": 0,
+      "metacontratas": 0
+    },
+    "rotation_indicators": {},
+    "incident_patterns": {},
+    "worker_assignment_data": {},
+    "aggregate_metrics": {
+      "total_endpoints_tested": 16,
+      "total_endpoints_accessible": 0,
+      "platforms_with_critical_data": 0
+    }
+  },
+  "methodology": {
+    "aggressive_scraping": true,
+    "parallel_processing": true,
+    "selenium_used": true,
+    "endpoint_testing": true,
+    "deep_content_analysis": true
+  }
+}

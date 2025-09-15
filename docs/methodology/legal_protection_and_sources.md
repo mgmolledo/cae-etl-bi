@@ -161,3 +161,5 @@ Coste total sector = Coste por empresa × Número de empresas
 **Versión**: 1.0  
 **Estado**: Documento de metodología y protección legal
 
+
+

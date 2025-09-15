@@ -82,3 +82,5 @@ echo "Presiona Ctrl+C para detener"
 
 python app.py
 
+
+

@@ -288,3 +288,5 @@ if __name__ == "__main__":
     print(f"   - Categorías: {len(CATEGORY_KEYWORDS)} categorías")
     print(f"   - Templates LinkedIn: {len(LINKEDIN_TEMPLATES)} templates")
 
+
+

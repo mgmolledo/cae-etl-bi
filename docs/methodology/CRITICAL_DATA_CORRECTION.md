@@ -81,3 +81,5 @@ Los datos presentados en el informe ejecutivo **NO son datos reales de 2025**, s
 4. Basar conclusiones en evidencia demostrable
 
 **Sin esta corrección, el informe carece de credibilidad científica y puede ser cuestionado legalmente.**
+
+
